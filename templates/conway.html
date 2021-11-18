@@ -1,0 +1,21 @@
+{%extends "base.html"%}
+{%import "bootstrap/wtf.html" as wtf%}
+{%block title%}Flasky - Conway Polynomials{%endblock%}
+{%block page_content%}
+<div class="page-header">
+	<h4 style="text-align: center;"><b>Select A Conway Polynomial On GF(p)</b></h4>
+</div>
+{{wtf.quick_form(form)}}
+{%if show == True%}
+<hr>
+<div>
+	<ul class="list-group">
+		<li class="list-group-item" style="text-align: center; background-color: black; color:darkturquoise;">Primitive Polynomial</li>
+		<li class="list-group-item" style="text-align: center;border-color: black;">{{primitive_poly_str}}</li>
+	</ul>
+		<li class="list-group-item" style="text-align: center;">
+			<a href="/conway" style="color:black;">Clear</a>
+		</li>
+</div>
+{%endif%}
+{%endblock%}

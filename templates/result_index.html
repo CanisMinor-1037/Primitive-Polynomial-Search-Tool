@@ -1,0 +1,39 @@
+{%extends "base.html"%}
+{%import "bootstrap/wtf.html" as wtf%}
+{%block title%}Flasky - Result{%endblock%}
+{%block page_content%}
+<div class="page-header">
+	<h4 style="text-align: center;"><b>Primitive Polynomials on GF({{form.GF.data}})</b></h4>
+	<table class="table table-hover">
+		<thead>
+	  		<tr>
+			<th style="text-align: center;">Degree</th>
+			<th style="text-align: center;">Limit</th>
+			<th style="text-align: center;">Status</th>
+	  		</tr>
+		</thead>
+		<tbody>
+	  	<tr>
+			<td style="text-align: center;">{{form.degree.data}}</td>
+			<td style="text-align: center;">{{form.limit.data}}</td>
+			<td style="text-align: center;">{{form.method.data}}</td>
+	  	</tr>
+		</tbody>
+  	</table>
+</div>
+<hr>
+<div>
+	<ul class="list-group list-group-horizontal">
+		<li class="list-group-item" style="background-color: black; color:darkturquoise; text-align: center;">Primitive Polynomial List</li>
+		{%for primitive_poly_str in primitive_polys_str%}
+			<li class="list-group-item" style="text-align: center; border-color: black;">{{primitive_poly_str}}</li>
+		{%endfor%}
+		</ul>
+		<li class="list-group-item" style="text-align: center; border-color: black;">
+			<a href="/result_index" style="color: black;">Next</a>
+		</li>
+		<li class="list-group-item" style="text-align: center; border-color: black;">
+			<a href="/" style="color: black;">Back</a>
+		</li>		
+</div>
+{%endblock%}

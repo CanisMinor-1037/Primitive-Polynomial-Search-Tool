@@ -1,0 +1,21 @@
+{%extends "base.html"%}
+{%import "bootstrap/wtf.html" as wtf%}
+{%block title%}Flasky - Find One{%endblock%}
+{%block page_content%}
+<div class="page-header">
+	<h4 style="text-align: center;"><b>Search For A Primitive Polynomial on GF(p^m)</b></h4>
+</div>
+{{wtf.quick_form(form)}}
+{%if show == True%}
+<hr>
+<div>
+	<ul class="list-group">
+		<li class="list-group-item" style="background-color: black; color:darkturquoise; text-align: center;">Primitive Polynomial</li>
+		<li class="list-group-item" style="text-align: center; border-color: black;">{{primitive_poly_str}}</li>
+	</ul>
+	<li class="list-group-item" style="text-align: center; border-color: black;">
+		<a href="/find_one" style="color:black;">Clear</a>
+	</li>
+</div>
+{%endif%}
+{%endblock%}
