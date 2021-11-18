@@ -3,7 +3,7 @@
 1. search for primitive polynomials on given finity field 'GF(p^m)'  
 2. judge whether a polynomial is primitive or not  
 *The project is based on Flask and Galois.  
-*Many Thanks to the Authers!  
+*Many Thanks to the Authors!  
   
 ##Install    
 *Before you first use this application, please type the following commands to initialize it:  
