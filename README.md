@@ -1,6 +1,6 @@
 ##Background  
 *This project aims to:  
-1. search for primitive polynomials on given finity field 'GF(p^m)'  
+1. search for primitive polynomials over given finity field 'GF(p^m)'  
 2. judge whether a polynomial is primitive or not  
 *The project is based on Flask and Galois.  
 *Many Thanks to the Authors!  
@@ -16,11 +16,11 @@
 2. 'python app.py'  
 *Then click on the link 'http://localhost:5050/'.  
 *The website provides five services:  
-1.Find All: Search For All Primitive Polynomials on GF(p^m)  
-2.Find One: Search For A Primitive Polynomial on GF(p^m)  
-3.Num-Term: Search For Num-Term Primitive Polynomials On GF(p^m)  
-4.Conway:   Select A Conway Polynomial On GF(p)  
-5.Judge:    Judge Whether A Polynomial Is Primitive On GF(p^m)  
+1.Find All: Search For All Primitive Polynomials over GF(p^m)  
+2.Find One: Search For A Primitive Polynomial over GF(p^m)  
+3.Num-Term: Search For Num-Term Primitive Polynomials Over GF(p^m)  
+4.Conway:   Select A Conway Polynomial Over GF(p)  
+5.Judge:    Judge Whether A Polynomial Is Primitive Over GF(p^m)  
 *Please select a item of the navbar by clicking on it.  
 *Then set values for arguments on the selected page:  
 1.GF: 'characteristic^degree', such as '2','2^7','3^11'.  
