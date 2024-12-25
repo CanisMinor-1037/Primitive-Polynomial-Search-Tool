@@ -1,11 +1,11 @@
-##Background  
-*This project aims to:  
+## Background  
+* This project aims to:  
 1. search for primitive polynomials over given finity field 'GF(p^m)'  
 2. judge whether a polynomial is primitive or not  
 *The project is based on Flask and Galois.  
 *Many Thanks to the Authors!  
   
-##Install    
+## Install    
 *Before you first use this application, please type the following commands to initialize it:  
 1. 'chmod +x run.sh'  
 2. './run.sh'  
@@ -34,5 +34,5 @@
 8.Expression: the expression of polynomial, such as 'x', 'x^5+x^7+x^19+8x^9'  
 *Please type 'Ctrl-C' to quit  
 
-##Maintainer
-CanisMinor-1037 :(
+## Maintainer
+CanisMinor-1037 
