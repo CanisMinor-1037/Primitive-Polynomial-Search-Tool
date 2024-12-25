@@ -5,7 +5,7 @@
 * The project is based on Flask and Galois.  
 * Many Thanks to the Authors!  
   
-## Install    
+## Installation    
 * Before you first use this application, please type the following commands to initialize it:  
 1. 'chmod +x run.sh'  
 2. './run.sh'  
